@@ -50,3 +50,49 @@ ul {
     background-color: #2d2b3e;
     color: #e6e6e6;
 }
+
+/* header */
+header {
+    background-color: #2d2b3e;
+    color: #e6e6e6;
+    /*  */
+    min-height: 70px;
+    border-bottom: 3px solid #eb4442;
+    padding: 5px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    /* Changing/increasing the amount of vertical space the ul takes up so the li elements can be centered vertically */
+    height: 100%;  
+}
+
+header li {
+    /* removes the bullet point on a list item */
+    list-style: none;
+    padding: 0 20px;
+}
+
+header a{
+    color: #e6e6e6;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#highlight, #current a {
+    color: #eb4442;
+    font-weight: 700;
+}
+
+/* selects all "a" elements expect for the "HOME" a-tag */
+a:not(#current a):hover{
+    color: #ccc;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+}
