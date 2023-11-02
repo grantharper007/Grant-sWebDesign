@@ -140,3 +140,8 @@ a:not(#current a):hover{
     height: 25px;
     width: 250px;
 }
+
+/* Boxes */
+#boxes {
+    display: flex;
+}
