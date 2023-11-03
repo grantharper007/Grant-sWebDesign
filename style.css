@@ -108,11 +108,11 @@ a:not(#current a):hover {
     text-align: center;
     color: #fff;
     height: fit-content;
-    min-height: 500px;
     padding-bottom: 10px;
 }
 
 #showcase .container {
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -255,7 +255,11 @@ footer {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
+    #h1 {
+        font-size: 25px;
+    }
+    
     #newsletter {
         text-align: center;
     }
@@ -265,7 +269,7 @@ footer {
         margin-top: 10px;
     }
 
-    #newsletter h1{
-        font-size: 20px;
+    #showcase h1{
+        font-size: 50px;
     }
 }
