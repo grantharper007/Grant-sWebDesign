@@ -100,7 +100,7 @@ a:not(#current a):hover{
 /* Showcase */
 #showcase {
     background-image: url(laptop.png);
-    height: 500px;
+    height: 550px;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -186,4 +186,41 @@ i {
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 50px;
+}
+
+/* Services */
+#services .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
+
+#services ul {
+    /* Removes left padding as well as bullet points */
+    padding: 0;
+}
+
+#services li {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #e6e6e6;
+}
+
+#services .sidebar {
+    margin-top: 50px;
+}
+
+#services input, #services textarea {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #2d2b3e;
+    color: #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
