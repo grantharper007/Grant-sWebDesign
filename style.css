@@ -255,18 +255,19 @@ footer {
     }
 }
 
-@media (max-width: 450px) {
-    #h1 {
-        font-size: 25px;
+@media (max-width: 500px) {
+    #newsletter button{
+        width: 260px;
+        margin-top: 10px;  
     }
-    
     #newsletter {
         text-align: center;
     }
+}
 
-    #newsletter button{
-        width: 260px;
-        margin-top: 10px;
+@media (max-width: 450px) {
+    #h1 {
+        font-size: 25px;
     }
 
     #showcase h1{
