@@ -156,6 +156,7 @@ a:not(#current a):hover {
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    margin-top: 15px;
 }
 
 .box {
@@ -166,6 +167,12 @@ a:not(#current a):hover {
 
 i {
     font-size: 225px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+i:hover{
+    transform: scale(1.2);
 }
 
 .fa-html5 {
